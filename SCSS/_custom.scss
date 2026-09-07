@@ -1,0 +1,22 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+
+$bg: #f7f3ee;
+$bg-soft: #efe4d5;
+$card: #fffdf9;
+$primary: #a75b2f;
+$primary-dark: #7f4027;
+$secondary: #1f1a17;
+$text: #2b221f;
+$muted: #6d5c54;
+$gold: #d7b26a;
+$line: rgba(31, 26, 23, 0.12);
+$shadow: 0 18px 40px rgba(58, 36, 25, 0.12);
+
+$font-family: "Roboto", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here

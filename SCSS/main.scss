@@ -308,3 +308,10 @@ main {
 .form-label{
     color: $primary;
 }
+.allreservations {
+  a {
+    display: block;
+    padding: 12px 18px;
+    color: $secondary
+  }
+}

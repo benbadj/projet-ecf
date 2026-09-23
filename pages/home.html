@@ -16,29 +16,41 @@
         <aside class="reservation-card" id="reservation">
             <h3>Réserver une table</h3>
             <div class="form-grid">
+                <div class="field mb-3">
+                    <label for="NomInput" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="NomInput" placeholder="Votre nom" name="Nom"> 
+                </div>
+                <div class="field mb-3">
+                    <label for="PrenomInput" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" id="PrenomInput" placeholder="Votre prénom" name="Prenom"> 
+                </div>
+                <div class=" field mb-3">
+                    <label for="EmailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
+                </div>
                 <div class="field">
                 <label for="date">Date</label>
                 <input id="date" type="date" value="2026-09-07">
                 </div>
-                <div class="field">
-                <label for="horaire">Heure</label>
-                <select id="horaire">
-                    <option>19h00</option>
-                    <option>19h30</option>
-                    <option>20h00</option>
-                    <option>20h30</option>
-                </select>
+                <div class="field mb-3">
+                    <label for="horaire">Heure</label>
+                    <select id="horaire">
+                        <option>19h00</option>
+                        <option>19h30</option>
+                        <option>20h00</option>
+                        <option>20h30</option>
+                    </select>
                 </div>
-                <div class="field">
-                <label for="personnes">Personnes</label>
-                <select id="personnes">
-                    <option>2 personnes</option>
-                    <option>4 personnes</option>
-                    <option>6 personnes</option>
-                    <option>8 personnes</option>
-                </select>
+                <div class="field mb-3">
+                    <label for="personnes">Personnes</label>
+                    <select id="personnes">
+                        <option>2 personnes</option>
+                        <option>4 personnes</option>
+                        <option>6 personnes</option>
+                        <option>8 personnes</option>
+                    </select>
                 </div>
-                <a href="#/reservation" class="btn btn-primary">Réserver</a>
+                <a href="./reserver.html" class="btn btn-primary">Réserver</a>
             </div>
         </aside>
     </div>
@@ -98,7 +110,7 @@
         <h3>Réservez votre table dès maintenant</h3>
         <p>Un moment de plaisir, de convivialité et de saveurs à partager.</p>
     </div>
-    <a href="#/reservation" class="btn btn-primary">Réserver</a>
+    <a href="./reserver.html" class="btn btn-primary">Réserver</a>
 </div>
 
     

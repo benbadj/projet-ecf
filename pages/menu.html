@@ -1,0 +1,129 @@
+<div class="hero-scene text-white">
+        <div class="container texte-center">
+            <h1>Galerie</h1>
+        </div>
+</div>
+<div class="container">
+    <div class="section-header">
+        <h2>À la carte</h2>
+        <p>Des propositions généreuses, équilibrées et parfaitement assaisonnées pour une expérience culinaire complète.</p>
+    </div>
+
+    <div class="menu-grid">
+        <article class="menu-item image-card text-white">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Entrée de restaurant">
+            <div class="menu-body">
+            <div class="menu-top">
+                <h3>Velouté de champignons</h3>
+                <span class="price">12€</span>
+            </div>
+            <p>Crème veloutée, truffe noire, croûtons dorés et herbes fraîches.</p>
+            </div>
+            <div class="menu-footer">
+                <a href="/reserver" class="btn btn-primary">réserver</a>
+            </div>
+            <div class="action-image-buttons">
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modifierPhotoModal"><i class="bi bi-pencil-square"></i></button>
+            </div>   
+        </article>
+    
+        <article class="menu-item image-card text-white ">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="Plat principal">
+            <div class="menu-body">
+            <div class="menu-top">
+                <h3>Filet de bœuf</h3>
+                <span class="price">26€</span>
+            </div>
+            <p>Pavot, pommes de terre écrasées, jus réduit et légumes de saison.</p>
+            </div>
+            <div class="menu-footer">
+                <a href="/reserver" class="btn btn-primary">Réserver</a>
+            </div>
+            <div class="action-image-buttons">
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modifierPhotoModal"><i class="bi bi-pencil-square"></i></button>
+            </div>
+        </article>
+        
+
+        <article class="menu-item image-card text-white">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" alt="Dessert">
+            <div class="menu-body">
+            <div class="menu-top">
+                <h3>Tarte tatin</h3>
+                <span class="price">11€</span>
+            </div>
+            <p>Pommes caramélisées, crème glacée vanille et amande effilée.</p>
+            </div>
+            <div class="menu-footer">
+                <a href="/reserver" class="btn btn-primary">Réserver</a>
+            </div>
+            <div class="action-image-buttons">
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modifierPhotoModal"><i class="bi bi-pencil-square"></i></button>
+            </div>
+        </article>
+        
+
+        <article class="menu-item image-card text-white">
+            <img src="https://unsplash.com/fr/photos/personne-tenant-une-tasse-en-verre-GJwKzsxUQu4" alt="coktail">
+            <div class="menu-body">
+            <div class="menu-top">
+                <h3>Velouté de champignons</h3>
+                <span class="price">11€</span>
+            </div>
+            <p>choix coktails, saveurs du monde</p>
+            </div>
+            <div class="menu-footer">
+                <a href="/reserver" class="btn btn-primary">Réserver</a>
+            </div>
+            <div class="action-image-buttons">
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modifierPhotoModal"><i class="bi bi-pencil-square"></i></button>
+            </div>
+        </article>
+        
+        <article class="menu-item image-card text-white">
+            <img src="https://unsplash.com/fr/photos/salade-de-tomates-tranchees-et-legumes-verts-ZJloxHWCYWY" alt="légumes">
+            <div class="menu-body">
+            <div class="menu-top">
+                <h3>Velouté de champignons</h3>
+                <span class="price">18€</span>
+            </div>
+            <p>salade de tomates et légumes à feuilles vertes sur assiette en bois brun</p>
+            </div>
+            <div class="menu-footer">
+                <a href="/reserver" class="btn btn-primary">Réserver</a>
+            </div>
+            <div class="action-image-buttons">
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modifierPhotoModal"><i class="bi bi-pencil-square"></i></button>
+            </div>
+        </article>
+        
+    </div>
+</div>
+
+
+<div class="modal fade" id="modifierPhotoModal" tabindex="-1" aria-labelledby="modifierPhotoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="modifierPhotoModalLabel">Modifier la photo</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                <div class="mb-3">
+                    <label for="NamePhotoInput" class="form-label">Titre de la photo</label>
+                    <input type="text" class="form-control" id="NamePhotoInput" placeholder="Entrez le titre de la photo">
+                </div>
+                <div class="mb-3">
+                    <label for="ImageInput" class="form-label">Image</label>
+                    <input type="file" class="form-control" id="ImageInput" placeholder="ajouter une photo">
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fermer</button>
+                <button type="button" class="btn btn-primary">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>

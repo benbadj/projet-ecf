@@ -8,6 +8,8 @@ function checkCredentials(){
     if(mailInput.value == "melanie@gmail.com" && passwordInput.value == "1234"){
         const token ="emmanuel"
         setToken(token);
+
+        setCookie("RoleCookieName", "admin", 7);
         window.location.replace("/");
     }
     else{
